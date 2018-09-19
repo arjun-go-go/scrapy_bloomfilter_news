@@ -1,0 +1,2 @@
+# scrapy_bloomfiter_news
+scrapy对接bloomfiter，scrapy-deltafetch实现增量爬取
