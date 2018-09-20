@@ -1,12 +1,13 @@
 # scrapy_bloomfiter_news
-scrapy对接bloomfilter，scrapy-deltafetch实现增量爬取
+
+# scrapy对接bloomfilter
 
 bloomfilter安装pip install pybloom_live
 
 tool下创建BloomCheck.py
 
 
-#scrapy-deltafetch实现增量爬取
+# scrapy-deltafetch实现增量爬取
 
 scrapy-deltafetch通过Berkeley DB来记录爬虫每次爬取收集的request和item，当重复执行爬虫时只爬取新的item，实现增量去重，提高爬虫爬取性能。
 
